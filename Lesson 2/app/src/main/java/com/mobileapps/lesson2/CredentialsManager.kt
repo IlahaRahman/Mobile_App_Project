@@ -1,0 +1,15 @@
+// Put your package name here. Check your activity for reference.
+package com.mobileapps.lesson2
+
+class CredentialsManager {
+    fun isEmailValid(email: String) :Boolean {
+            if (email.isEmpty()) return false
+            val emailRegex = "^[A-Za-z](.*)([@]{1})(.{1,})(\\.)(.{1,})"
+            return email.matches(Regex(emailRegex))
+
+
+        }
+    fun isPasswordValid(password: String): Boolean {
+        return password.isNotEmpty()
+    }
+}
