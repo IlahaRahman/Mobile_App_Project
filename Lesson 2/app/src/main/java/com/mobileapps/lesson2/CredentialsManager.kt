@@ -1,4 +1,3 @@
-// Put your package name here. Check your activity for reference.
 package com.mobileapps.lesson2
 
 class CredentialsManager {
