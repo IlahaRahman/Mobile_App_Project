@@ -2,8 +2,7 @@ package com.mobileapps.lesson2
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import android.widget.TextView
-import android.content.Intent
+import androidx.fragment.app.Fragment
 
 
 class SignUpActivity : AppCompatActivity() {
@@ -12,12 +11,15 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        val loginTextView: TextView = findViewById(R.id.loginTextView)
-        loginTextView.setOnClickListener {
-            val intent = Intent(this, AccountActivity::class.java)
-            startActivity(intent)
+        if (savedInstanceState == null) {
+            replaceFragment(RegisterFragment())
         }
 
+    }
+    private fun replaceFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragmentContainer, fragment)
+            .commit()
     }
 
 
