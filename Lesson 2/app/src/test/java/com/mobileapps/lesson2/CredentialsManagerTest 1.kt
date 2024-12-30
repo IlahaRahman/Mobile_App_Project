@@ -37,4 +37,17 @@ class CredentialsManagerTest {
         val isPasswordValid = credentialsManager.isPasswordValid("password123")
         assertTrue(isPasswordValid)
     }
+
+    @Test
+    fun givenNewEmail_thenRegisterSuccessfully(){
+        val isRegistered= credentialsManager.register("newexample1@example.com", "password1234")
+        assertTrue(isRegistered)
+    }
+
+    @Test
+    fun givenExistingEmail_thenRegisterFails(){
+        credentialsManager.register("exist@example.com", "password1234")
+        val isRegistered= credentialsManager.register("exist@example.com", "password1234")
+        assertFalse(isRegistered)
+    }
 }

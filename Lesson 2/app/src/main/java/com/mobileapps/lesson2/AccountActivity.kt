@@ -14,7 +14,7 @@ class AccountActivity : AppCompatActivity() {
     private lateinit var passwordTextInputLayout: TextInputLayout
     private lateinit var nextButton: MaterialButton
 
-    private val credentialsManager = CredentialsManager()
+    private val credentialsManager = CredentialsManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,9 +32,9 @@ class AccountActivity : AppCompatActivity() {
 
         nextButton.setOnClickListener {
             validateAndLogin()
-            }
+        }
 
-       }
+    }
     private fun validateAndLogin (){
         val email = emailTextInputLayout.editText?.text.toString().trim()
         val password = passwordTextInputLayout.editText?.text.toString().trim()
