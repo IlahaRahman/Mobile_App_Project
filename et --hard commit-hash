@@ -1,0 +1,65 @@
+[33mcommit 9bfac2697332913b89a7463221f93c94d4b6240c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32madding-accounts-to-credential-manager[m[33m, [m[1;31morigin/adding-accounts-to-credential-manager[m[33m, [m[1;32mfragments-sample[m[33m)[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 09:25:19 2024 +0100
+
+    Fragments Sample
+
+[33mcommit 773247951326252c2504e1d8b02a344fe48d5600[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 09:00:21 2024 +0100
+
+    Registration-Adding account to Credentials Manager
+
+[33mcommit 33e79e1c4b014ae29a67cebf4f1a72bc2d98bd87[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 07:59:23 2024 +0100
+
+    Integrated Credential Manager into Login Ac.
+
+[33mcommit 9f98e3271c57ca1e784d1574d55edb42dc4b636b[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 07:10:26 2024 +0100
+
+    Created Credentials Manager
+
+[33mcommit c008059924dcb0570b338f1b0538ac086a93849e[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 06:37:42 2024 +0100
+
+    Added navigation between Sign Up and Login
+
+[33mcommit bc9349ade6dc5240b41baef21d9571487ad47bd1[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 06:15:47 2024 +0100
+
+    Changed to Material Design and exported styles.xml
+
+[33mcommit bb14f741626cd1363e51f2cf4b27e6f0fae0b4e2[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 03:37:33 2024 +0100
+
+    Created 2 layouts based on Figma
+
+[33mcommit 657a1b90e0be18607c729e8f137318405df8fcf2[m
+Author: IlahaRahman <ilahe.rahmanzadeh@icloud.com>
+Date:   Mon Dec 30 02:47:12 2024 +0100
+
+    Remove Lesson 1 folder from the repository
+
+[33mcommit 8b6f14129ce957645d8787188543d376a195bfe0[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Mikolaj Karwowski <mikolaj.karwowski@wmii.uni.lodz.pl>
+Date:   Sat Oct 12 00:39:25 2024 +0200
+
+    Dir name consistency fix
+
+[33mcommit 34e126e16282aeb9adac1d78faf2717b0290f6af[m
+Author: Mikolaj Karwowski <mikolaj.karwowski@wmii.uni.lodz.pl>
+Date:   Sat Oct 12 00:36:34 2024 +0200
+
+    Lesson 2 - Coffee screen
+
+[33mcommit 342aae18191a6c14bd998630f06e0173ea383baf[m
+Author: Mikolaj Karwowski <mikolaj.karwowski@wmii.uni.lodz.pl>
+Date:   Sat Oct 12 00:26:52 2024 +0200
+
+    First lesson - kotlin and layout basics
